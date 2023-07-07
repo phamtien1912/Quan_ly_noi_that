@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 14, 2023, 12:30:07 AM
+    Author     : Admin
+*/
+center {
+    width: 100%;
+    padding-top: 100px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.cart__title {
+    margin-bottom: 30px;
+}
+/* Định dạng cho nút tăng/giảm số lượng */
+.quantity button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Định dạng cho đường kẻ ngang */
+hr {
+    border: 1px solid #f2f2f2;
+    margin: 20px 0;
+}
+
+/* Định dạng cho phần Total money */
+.center h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 20px 0;
+    margin-bottom: -1px;
+
+}
+
+.quantity__button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.quantity__button:hover {
+    background-color: #ddd;
+}
+
+.quantity__reduce {
+    margin-right: 5px;
+}
+
+.quantity__increase {
+    margin-left: 5px;
+}
+
+.quantity__value {
+    margin: 0 5px;
+    font-weight: bold;
+}

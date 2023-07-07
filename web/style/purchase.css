@@ -1,0 +1,153 @@
+
+
+body{
+    min-width: 1000px;
+}
+
+.pur__img{
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.block_distance{
+    width: 100%;
+    height: 20px;
+    background-color: #F6F6F6;
+}
+
+.content_homepage{
+    width: 90%;
+    
+}
+
+.nav_content{
+    background-color: #fff;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 73px;
+    width: 100%;
+    z-index: 9;
+}
+
+.nav_content>ul{
+    display: flex;
+
+}
+
+.nav_content>ul>li{
+    height: 40px;
+    line-height: 40px;
+    width: calc(100%/6);
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+.nav_content>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.nav_content>ul>li:hover{
+    color: red;
+}
+
+
+.content{
+    background-color: #fff;
+    margin-bottom: 200px;
+}
+
+
+
+.selected{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+
+
+.content>div{
+    display: none;
+}
+
+.content .active{
+    display: block;
+}
+
+.icon_pro{
+    width: 100px;
+}
+
+.content_product{
+    display: flex;
+    border-bottom: 3px solid #F6F6F6;
+}
+
+
+.icon_content{
+    width: 100%;
+    position: relative;
+    margin: 5px 20px 0;
+    font: 14px/20px "Montserrat", sans-serif;
+}
+
+
+.icon_content .icon_price{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+
+.sellandcall{
+    margin-top: 30px;
+    right: 30px;
+    bottom: 10px;
+}
+
+.sellandcall{
+    display: flex;
+}
+
+.clickP{
+    margin: 8px;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid rgba(92, 9, 9, 0.691);
+    background-color: #ee4d2d;
+    color: #fff;
+    font: 15px/20px "Montserrat", sans-serif;
+}
+
+.clickP:hover{
+    background-color: #d73211;
+}
+
+.content .container_icon{
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    border-radius: 0.125rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.product_link{
+    
+}
+
+.product_link>a{
+    text-decoration: none;
+}

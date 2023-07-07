@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 26, 2023, 11:29:51 PM
+    Author     : Admin
+*/
+
+.homepage{
+    display: flex;
+    padding-top: 100px;
+    font: 14px/20px "Montserrat", sans-serif;
+    border: 1px solid #d4cece;
+    background-color: #F6F6F6;
+}
+
+.nav_homepage{
+    width: 180px;
+    padding-top: 50px;
+    margin: 10px;
+}
+
+.nav_homepage li{
+    padding: 0 0 20px 15px;
+    cursor: pointer;
+}
+
+.nav_homepage li:hover{
+    color: red;
+}
+
+.content_homepage1 {
+    width: 100%;
+}
+
+
+
+
