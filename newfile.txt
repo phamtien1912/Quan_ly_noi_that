@@ -1,6 +1,0 @@
-đây là code
-git clone: kéo project xuống 
-git add .: thêm vào
-git commit -am "message gửi lên"
-git push: đẩy lên
-git pull: kéo về
